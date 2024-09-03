@@ -21,18 +21,20 @@ tina.speed(2)                           # Make the turtle move as fast, but not 
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
-
+# tina.goto(100,0)
+tina.pendown()
 tina.color('blue')
 tina.begin_fill()
 tina.circle(100)
 tina.end_fill()
-tina.penup('red')
-tina.goto(-100,0)
-tina.pendown('red')
+tina.penup()
+
+tina.goto(-150,0)
+tina.pendown()
 tina.color('red')
-tina.begin_fill
+tina.begin_fill()
 tina.circle(100)
-tina.end_fill
+tina.end_fill()
 
 ... # Your code here
 
