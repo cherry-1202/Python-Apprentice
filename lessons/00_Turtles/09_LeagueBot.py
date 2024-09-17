@@ -17,4 +17,20 @@ screen.bgcolor('white')
 
 t = turtle.Turtle()
 
-... # Your Code Here
+import turtle
+
+t.penup()
+t.shape("turtle")
+t.color('blue')
+
+
+sides=6
+angle=360/sides
+for i in range(sides):
+    t.pendown()
+    t.forward(50)
+    t.left(angle)
+
+
+
+turtle.exitonclick()   
