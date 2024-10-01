@@ -27,7 +27,7 @@ myTurtle.shape("turtle")
 myTurtle.speed(0)
 
 # Set your turtle's color
-myTurtle.color("green")
+myTurtle.color("cyan")
 
 # Use a loop to repeat the code below 50 times
 for i in range(50):

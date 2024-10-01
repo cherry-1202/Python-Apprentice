@@ -24,12 +24,12 @@ myTurtle.shape("turtle")
 myTurtle.speed(0)
 myTurtle.width(1)
 
-sides = 5
+sides = 3
 angle = 360 / sides
 
 for i in range(360):
-    if i == 100:
-        myTurtle.width(2)
+    if i == 1200:
+        myTurtle.width(1)
     if i == 200:
         myTurtle.width(3)
     myTurtle.pencolor(getNextColor(i))
