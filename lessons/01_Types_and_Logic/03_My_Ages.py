@@ -59,7 +59,6 @@ elif age >59:
     messagebox.showinfo(message="You are a senior.")
 
 
-
 # Show the message to the user
 
 
