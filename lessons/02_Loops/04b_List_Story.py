@@ -22,7 +22,9 @@ story.append(words[13])
 story.append(words[15])
 story.append(words[10])
 story.append(words[8])
-story.append(words[5])
+story.append(words[4])
+story.append(words[10])
+story.append(words[17])
 
 # Display the story to the user
 print(' '.join(story))

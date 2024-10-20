@@ -17,10 +17,7 @@ Additionally, If you are displaying a number  color the numbers as follows:
 Here is how you can display a number in your grid. Call this function in your loop
 to display the number in the grid cell at the row and column you specify.
 
-    Text(app, text=str(number), grid=[col, row], color=color)
-
-Or to display a badger: 
-    
+    Text(app, text=str(number), grid=[col, row], color=color   
     Text(app, text='🦡', grid=[col, row], color=color)
 
 HINT: You can use % and // to get the first and last digit of a number, 
@@ -35,6 +32,19 @@ app = App("Numbers Grid", layout="grid")
 # Or you can use a single loop and calculate the row and column
 
 # In the loop, calculate or increment the number
+
+for y in range (10):
+    for x in range (10):
+        Text(app, text='🦡', grid=[10,10], color='black')
+
+
+
+
+
+
+
+
+
 
 # Use % determing the display, using fizzbuzz rules
 
