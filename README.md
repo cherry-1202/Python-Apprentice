@@ -1,3 +1,4 @@
+
 # Python Apprentice Curriculum
 
 The League's Python Apprentice curriculum introduces students to the core feature
