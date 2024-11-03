@@ -38,7 +38,7 @@ def random_walk(walker, steps):
 
     """
 
-    # You can make the turle move randomly in either of two ways: randomly choosing a direction
+    # You can make the turtle move randomly in either of two ways: randomly choosing a direction
     # or randomly choosing a angle to turn. You can use random.choice() to select a random element
     # from a list, like this: 
     # direction = random.choice(["N", "E", "S", "W"])
@@ -68,3 +68,5 @@ random_walk(walker, 200)
 
 # Close the turtle window on click
 screen.exitonclick()
+
+

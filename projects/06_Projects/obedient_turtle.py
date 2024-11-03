@@ -14,3 +14,29 @@ from guizero import App, Box, Text, TextBox, PushButton, ListBox, error
 #   4. Draw the appropriate shape depending on their answer (call the right
 #      function)
 pass
+
+
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup(width=600, height=600)     # Set the size of the window
+
+tina = turtle.Turtle()                  # Create a turtle named tina
+
+tina.shape(turtle)
+
+tina.pencolor('blue')
+
+
+
+tina.forward(20)
+tina.left(90)
+
+
+
+
+
+
+
+
+
+
+
