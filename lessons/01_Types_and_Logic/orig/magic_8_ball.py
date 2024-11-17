@@ -3,7 +3,6 @@ from tkinter import messagebox, Tk, simpledialog
 
 
 
-window = Tk()
 window.withdraw()
 
 # TODO 1) Get the user to enter a question for the 8 ball to answer

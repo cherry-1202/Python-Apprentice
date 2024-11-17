@@ -10,6 +10,7 @@ window.withdraw()
 random_num = random.randint(1, 10)
 
 # 2. Print out the random variable that you made in step #1
+print(random_num)
 
 # 3. Code a for loop to run steps 4-10, 10 times
 

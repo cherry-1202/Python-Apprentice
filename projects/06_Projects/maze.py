@@ -11,7 +11,7 @@ from mazelib.solve.BacktrackingSolver import BacktrackingSolver
 
 def make_maze(x_size=15, y_size=15):
     """Generate the maze using the maze library"""
-    m = Maze()
+    m = Maze
     m.generator =DungeonRooms(x_size, y_size, rooms=[[(3,3), (7,7)], [(21,21), (28,28)]])
     m.generate()
     m.generate_entrances()
